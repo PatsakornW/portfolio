@@ -267,14 +267,10 @@ function Home() {
                                 </div>
 
                                 <div className='flex flex-wrap justify-center gap-4 my-4'>
-                                    <img src={goldplus} className="w-64 h-64 " />
-                                    <img src={flotilla} className="w-64 h-64 " />
-                                    <img src={thavorn} className="w-64 h-64 " />
+                                    <img src={goldplus} className="w-64 h-64 " alt='goldplus' />
+                                    <img src={flotilla} className="w-64 h-64 " alt='flotilla' />
+                                    <img src={thavorn} className="w-64 h-64 " alt='thavorn' />
                                 </div>
-
-
-
-
                             </div>
                         </details>
                         <details className="collapse collapse-arrow">
@@ -285,8 +281,30 @@ function Home() {
                                     <p>July 2022 - October 2022</p>
                                 </div>
                             </summary>
-                            <div className="collapse-content">
-                                <p>content</p>
+                            <div className="collapse-content border border-black rounded">
+                                <div className='my-2 leading-relaxed'>
+                                    <div className="grid grid-cols-2 items-center">
+                                        <div className='flex flex-col justify-center '>
+                                            Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
+                                            <br />
+                                            <div className="badge text-xs badge-primary ">Use : Flutter / PHP</div>
+                                        </div>
+                                        <div className='flex justify-center'>
+                                            <img src={rerunews} onClick={() => window.my_modal_2.showModal()} className=" w-64 h-72 " alt="flutter" />
+                                            <dialog id="my_modal_2" className="modal">
+                                                <form method="dialog" className="modal-box w-full">
+                                                    <img src={rerunews}  alt="flutter" />
+                                                </form>
+                                                <form method="dialog" className="modal-backdrop">
+                                                    <button>close</button>
+                                                </form>
+                                            </dialog>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </details>
                         {/* <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">

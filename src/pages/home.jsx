@@ -36,7 +36,7 @@ function Home() {
                 </div>
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center'>
-                    <div className='flex items-center mx-10  my-5'>
+                    <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold mx-5 '>Skill</div>
                         <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
                     </div>
@@ -173,7 +173,7 @@ function Home() {
                 </div>
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-28  justify-center'>
-                    <div className='flex items-center mx-10 my-5'>
+                    <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold mx-5 '>Project</div>
                         <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
                     </div>

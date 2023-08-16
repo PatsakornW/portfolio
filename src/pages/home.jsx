@@ -184,8 +184,8 @@ function Home() {
                                 </p>
                             </div>
                             <div className='justify-center gap-2 flex mt-auto my-2'>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
 
@@ -202,8 +202,8 @@ function Home() {
                                 </p>
                             </div>
                             <div className='justify-center gap-2 flex mt-auto my-2'>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
 
@@ -220,8 +220,8 @@ function Home() {
                                 </p>
                             </div>
                             <div className='justify-center gap-2 flex mt-auto my-2'>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
-                                <button className='btn btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
+                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
                         

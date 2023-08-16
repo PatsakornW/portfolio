@@ -174,11 +174,11 @@ function Home() {
                     <p className='text-4xl font-medium mx-5 mt-5 lg:mt-0'>Project</p>
                     <div className='divider mx-5'></div>
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5 gap-4">
-                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[33rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover rounded" src={recipes} alt="recipes" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">
-                                <div className='text-2xl font-bold mb-2'>Recipes</div>
-                                <div className='mx-2 w-1/3 h-[2px] opacity-50 bg-black'></div>
+                                <div className='text-2xl font-bold mb-1'>Recipes</div>
+                                <div className=' w-1/3 h-[2px] opacity-50 bg-black'></div>
                                 <div className='flex  gap-x-1'>
                                     <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
@@ -203,9 +203,17 @@ function Home() {
                             </div> */}
                         </div>
 
-                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[33rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
-                            <div class="text-2xl font-bold mt-4 mb-3">Gold Plus +</div>
+                            <div class=" mt-4 mb-3 flex justify-between items-center ">
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus +</div>
+                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
+                                <div className='flex  gap-x-1'>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
+                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+
+                                </div>
+                            </div>
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">Laravel</div>
                                 <div className="badge badge-ghost">Bootstrap</div>
@@ -215,15 +223,23 @@ function Home() {
                                     Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-5'>
+                            {/* <div className='justify-center gap-2 flex mt-auto my-5'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
-                            </div>
+                            </div> */}
                         </div>
 
-                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[33rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={rerunews} alt="rerunews" />
-                            <div class="text-2xl font-bold mt-4 mb-3">RERU News</div>
+                            <div class=" mt-4 mb-3 flex justify-between items-center ">
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>RERU NEWS</div>
+                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
+                                <div className='flex  gap-x-1'>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
+                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+
+                                </div>
+                            </div>
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">Flutter</div>
                                 <div className="badge badge-ghost">Php</div>
@@ -233,10 +249,10 @@ function Home() {
                                     Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-5'>
+                            {/* <div className='justify-center gap-2 flex mt-auto my-5'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
-                            </div>
+                            </div> */}
                         </div>
 
 

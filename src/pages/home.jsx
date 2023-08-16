@@ -170,56 +170,56 @@ function Home() {
                     <p className='text-4xl font-medium mx-5 mt-5 lg:mt-0'>Project</p>
                     <div className='divider mx-5'></div>
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5 gap-4">
-                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[30rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[32rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover" src={recipes} alt="recipes" />
-                            <div class="text-2xl font-bold my-2">Recipes</div>
+                            <div class="text-2xl font-bold mt-4 mb-2">Recipes</div>
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">React</div>
                                 <div className="badge badge-ghost">Tailwind</div>
                                 <div className="badge badge-ghost">Api</div>
                             </div>
-                            <div className='text-sm my-2'>
+                            <div className='text-sm my-4'>
                                 <p>
                                     This web app, built using React, allows users to easily search for and view details of recipes from the Spoonacular API. Users can conveniently find and explore recipes they're interested in, facilitating seamless cooking experiences.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-2'>
+                            <div className='justify-center gap-2 flex mt-auto my-4'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
 
-                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[33rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover" src={goldplus} alt="goldplus" />
-                            <div class="text-2xl font-bold my-2">Gold Plus +</div>
+                            <div class="text-2xl font-bold mt-4 mb-2">Gold Plus +</div>
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">Laravel</div>
                                 <div className="badge badge-ghost">Bootstrap</div>
                             </div>
-                            <div className='text-sm my-2'>
+                            <div className='text-sm my-4'>
                                 <p>
                                 Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-2'>
+                            <div className='justify-center gap-2 flex mt-auto my-4'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
 
-                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
+                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[33rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover" src={rerunews} alt="rerunews" />
-                            <div class="text-2xl font-bold my-2">RERU News</div>
+                            <div class="text-2xl font-bold mt-4 mb-2">RERU News</div>
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">Flutter</div>
                                 <div className="badge badge-ghost">Php</div>
                             </div>
-                            <div className='text-sm my-2'>
+                            <div className='text-sm my-4'>
                                 <p>
                                 Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-2'>
+                            <div className='justify-center gap-2 flex mt-auto my-4'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>

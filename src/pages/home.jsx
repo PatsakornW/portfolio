@@ -3,6 +3,10 @@ import me from '../assets/me.svg'
 import recipes from '../assets/recipes.jpeg'
 import goldplus from '../assets/goldplus.jpeg'
 import rerunews from '../assets/rerunews.png'
+import github from '../assets/github.png'
+import web from '../assets/web.png'
+
+import '../App.css'
 
 
 
@@ -172,7 +176,17 @@ function Home() {
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5 gap-4">
                         <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[33rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover rounded" src={recipes} alt="recipes" />
-                            <div class="text-2xl font-bold mt-4 mb-3">Recipes</div>
+                            <div class=" mt-4 mb-3 flex justify-between items-center ">
+                                <div className='text-2xl font-bold mb-2'>Recipes</div>
+                                <div className='mx-2 w-1/3 h-[2px] opacity-50 bg-black'></div>
+                                <div className='flex  gap-x-1'>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
+                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+
+                                </div>
+                            </div>
+
+
                             <div className='flex gap-x-2'>
                                 <div className="badge badge-ghost">React</div>
                                 <div className="badge badge-ghost">Tailwind</div>
@@ -183,10 +197,10 @@ function Home() {
                                     This web app, built using React, allows users to easily search for and view details of recipes from the Spoonacular API. Users can conveniently find and explore recipes they're interested in, facilitating seamless cooking experiences.
                                 </p>
                             </div>
-                            <div className='justify-center gap-2 flex mt-auto my-5'>
+                            {/* <div className='justify-center gap-2 flex mt-auto my-5'>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[33rem]	 w-full md:w-80">
@@ -198,7 +212,7 @@ function Home() {
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
-                                Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
+                                    Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
                                 </p>
                             </div>
                             <div className='justify-center gap-2 flex mt-auto my-5'>
@@ -216,7 +230,7 @@ function Home() {
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
-                                Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
+                                    Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
                                 </p>
                             </div>
                             <div className='justify-center gap-2 flex mt-auto my-5'>
@@ -224,9 +238,9 @@ function Home() {
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div>
                         </div>
-                        
 
-                        
+
+
 
                     </div>
 

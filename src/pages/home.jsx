@@ -1,10 +1,12 @@
 import React from 'react'
 import me from '../assets/me.svg'
 import recipes from '../assets/recipes.jpeg'
-import goldplus from '../assets/goldplus.jpeg'
+import goldplus from '../assets/goldplus.png'
 import rerunews from '../assets/rerunews.png'
 import github from '../assets/github.png'
 import web from '../assets/web.png'
+import flotilla from '../assets/flotilla.png'
+import thavorn from '../assets/thavorn.png'
 
 import '../App.css'
 
@@ -201,10 +203,6 @@ function Home() {
                                     This web app, built using React, allows users to easily search for and view details of recipes from the Spoonacular API. Users can conveniently find and explore recipes they're interested in, facilitating seamless cooking experiences.
                                 </p>
                             </div>
-                            {/* <div className='justify-center gap-2 flex mt-auto my-5'>
-                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
-                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
-                            </div> */}
                         </div>
 
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
@@ -232,8 +230,66 @@ function Home() {
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div> */}
                         </div>
+                    </div>
+                </div>
 
-                        <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center'>
+                    <div className='flex items-center m-5'>
+                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Experience</div>
+                        <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
+                    </div>
+                    <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-2 lg:p-5  gap-2">
+                        <details className="collapse collapse-arrow">
+                            <summary className="collapse-title text-xs md:text-sm lg:text-xl ">
+                                <div className='flex justify-between'>
+                                    <p>Web design</p>
+                                    <p>Ensure Communication Co.,Ltd. (Internship)</p>
+                                    <p>December 2022 - March 2023</p>
+                                </div>
+                            </summary>
+                            <div className="collapse-content border border-black rounded">
+                                <div className='my-2 leading-relaxed'>
+                                    <b>For Gold Plus :</b>  I have developed and designed the UI for a gold-saving platform that enables members to save around the clock. Members can deposit funds into the system, convert them into tokens for gold exchange, and are able to exchange their tokens for gold once their savings goal is achieved.
+                                    <br />
+                                    <div className="badge text-xs badge-primary mb-4">Use : HTML / CSS / Java Script / Laravel / Bootstrap</div>
+                                </div>
+
+                                <div className='my-2 leading-relaxed'>
+                                    <b>For Flotilla Technology : </b>I have designed the UX/UI for the landing page of both the website and mobile platform for FLOTILLA TECHNOLOGY CO., LTD. This company operates in the manufacturing industry, providing services related to large shipbuilding and floating construction.
+                                    <br />
+                                    <div className="badge text-xs badge-primary mb-4">Use : Figma</div>
+                                </div>
+
+                                <div className='my-2 leading-relaxed'>
+                                    <b>For Thavorn Jewelry : </b> I review and edit the web design for TONG THAVORN.
+                                    <br />
+                                    <div className="badge text-xs badge-primary mb-4">Use : HTML / CSS</div>
+                                </div>
+
+                                <div className='flex flex-wrap justify-center gap-4 my-4'>
+                                    <img src={goldplus} className="w-64 h-64 " />
+                                    <img src={flotilla} className="w-64 h-64 " />
+                                    <img src={thavorn} className="w-64 h-64 " />
+                                </div>
+
+
+
+
+                            </div>
+                        </details>
+                        <details className="collapse collapse-arrow">
+                            <summary className="collapse-title text-xs md:text-sm lg:text-xl">
+                                <div className='flex justify-between'>
+                                    <p>Full Stack</p>
+                                    <p>Graduation Project</p>
+                                    <p>July 2022 - October 2022</p>
+                                </div>
+                            </summary>
+                            <div className="collapse-content">
+                                <p>content</p>
+                            </div>
+                        </details>
+                        {/* <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={rerunews} alt="rerunews" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">
                                 <div className='text-2xl font-bold tracking-tighter mb-1'>RERU NEWS</div>
@@ -253,17 +309,31 @@ function Home() {
                                     Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
                                 </p>
                             </div>
-                            {/* <div className='justify-center gap-2 flex mt-auto my-5'>
-                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
-                                <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
-                            </div> */}
                         </div>
 
 
+                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
+                            <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
+                            <div class=" mt-4 mb-3 flex justify-between items-center ">
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus</div>
+                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
+                                <div className='flex  gap-x-1'>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
 
-
+                                </div>
+                            </div>
+                            <div className='flex gap-x-2'>
+                                <div className="badge badge-ghost">Laravel</div>
+                                <div className="badge badge-ghost">Bootstrap</div>
+                            </div>
+                            <div className='text-sm my-5'>
+                                <p>
+                                    Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
+                                </p>
+                            </div>
+                        </div> */}
                     </div>
-
                 </div>
             </div>
         </div>

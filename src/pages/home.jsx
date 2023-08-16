@@ -38,7 +38,7 @@ function Home() {
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center'>
                 <div className='flex items-center  my-5'>
                         <div className='text-2xl lg:text-4xl font-bold mx-5 '>Skill</div>
-                        <div className='h-[2px] bg-gray-300  w-3/4 md:w-3/4 lg:w-full'></div>
+                        <div className='h-[2px] bg-gray-300  w-1/2 md:w-3/4 lg:w-full'></div>
                     </div>
                     <div className="flex flex-wrap md:flex-nowrap  mx-auto w-full justify-center items-center ">
                         <div className="card card-compact w-56 ">
@@ -175,9 +175,9 @@ function Home() {
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-28  justify-center'>
                     <div className='flex items-center  my-5'>
                         <div className='text-2xl lg:text-4xl font-bold mx-5 '>Project</div>
-                        <div className='h-[2px] bg-gray-300  w-3/4 md:w-3/4 lg:w-full'></div>
+                        <div className='h-[2px] bg-gray-300  w-1/2 md:w-3/4 lg:w-full'></div>
                     </div>
-                    <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center  gap-4">
+                    <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5  gap-4">
                         <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover rounded" src={recipes} alt="recipes" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">

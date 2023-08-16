@@ -21,11 +21,11 @@ function Home() {
     return (
         <div className='flex flex-wrap'>
             <div className=' grid grid-cols-2 mt-20'>
-                <div className='col-span-2 lg:col-span-1  flex flex-col justify-center items-center  xl:items-end text-3xl xl:text-5xl font-bold mx-10 '>
+                <div className='col-span-2 lg:col-span-1  flex flex-col justify-center items-center  xl:items-end text-3xl xl:text-5xl  mx-10 '>
                     <div className='text-center xl:text-start'>
-                        <p >Hello there,</p>
-                        <p >I'm Patsakorn.</p>
-                        <p className='xl:text-6xl text-5xl' >Front-End Developer ! </p>
+                        <p className='tracking-tight'>Hello there</p>
+                        <p className='tracking-tight'>I'm Patsakorn</p>
+                        <p className='xl:text-6xl text-5xl font-black ' >FrontEnd Developer. </p>
                     </div>
 
 
@@ -36,8 +36,10 @@ function Home() {
                 </div>
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center'>
-                    <p className='text-4xl font-medium mx-5'>Skill</p>
-                    <div className='divider mx-5'></div>
+                <div className='flex items-center  my-5'>
+                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Skill</div>
+                        <div className='h-[2px] bg-gray-300  w-3/4 md:w-3/4 lg:w-full'></div>
+                    </div>
                     <div className="flex flex-wrap md:flex-nowrap  mx-auto w-full justify-center items-center ">
                         <div className="card card-compact w-56 ">
                             <div className="card-body items-center text-center gap-4">
@@ -171,9 +173,11 @@ function Home() {
                 </div>
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-28  justify-center'>
-                    <p className='text-4xl font-medium mx-5 mt-5 lg:mt-0'>Project</p>
-                    <div className='divider mx-5'></div>
-                    <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5 gap-4">
+                    <div className='flex items-center  my-5'>
+                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Project</div>
+                        <div className='h-[2px] bg-gray-300  w-3/4 md:w-3/4 lg:w-full'></div>
+                    </div>
+                    <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center  gap-4">
                         <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover rounded" src={recipes} alt="recipes" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">
@@ -181,7 +185,7 @@ function Home() {
                                 <div className=' w-1/3 h-[2px] opacity-50 bg-black'></div>
                                 <div className='flex  gap-x-1'>
                                     <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
 
                                 </div>
                             </div>
@@ -206,11 +210,11 @@ function Home() {
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">
-                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus +</div>
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus</div>
                                 <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
                                 <div className='flex  gap-x-1'>
                                     <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
 
                                 </div>
                             </div>
@@ -236,7 +240,7 @@ function Home() {
                                 <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
                                 <div className='flex  gap-x-1'>
                                     <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                   <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
 
                                 </div>
                             </div>

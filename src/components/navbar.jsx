@@ -44,9 +44,9 @@ function Navbar() {
             <div className="drawer-side z-20">
                 <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 h-full bg-base-200">
-                    <li className='mt-4 mb-2'><Link to={'/'}>Home</Link></li>
-                    <li className='mt-4 mb-2'><Link to={'/project'}>Project</Link></li>
-                    <li className='mt-4 mb-2'><Link to={'/contact'}>Contact</Link></li>
+                    <li className='mt-4 mb-2'onClick={() => scrollToSection('about-section')}>About</li>
+                    <li className='mt-4 mb-2'onClick={() => scrollToSection('project-section')}>Project</li>
+                    <li className='mt-4 mb-2'onClick={() => scrollToSection('experience-section')}>Contact</li>
                 </ul>
             </div>
         </div>

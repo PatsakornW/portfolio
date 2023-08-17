@@ -21,15 +21,15 @@ function Footer() {
 
                 <div className="flex  flex-col gap-2 ">
                     <div className="flex items-center">
-                        <a href='https://github.com/PatsakornW' target='blank'><img src={github} alt="" className='w-[25px] me-2'/></a>
+                        <a  target='blank'><img src={github} alt="" className='w-[25px] me-2'/></a>
                         PatsakornW
                     </div>
                     <div className="flex items-center">
-                        <a href='https://github.com/PatsakornW' target='blank'><img src={email} alt="" className='w-[25px] me-2'/></a>
+                        <a  href="mailto:patsakorn.wtnsb@gmail.com" target='blank'><img src={email} alt="" className='w-[25px] me-2'/></a>
                         patsakorn.wtnsb@gmail.com
                     </div>
                     <div className="flex items-center">
-                        <a href='https://github.com/PatsakornW' target='blank'><img src={phone} alt="" className='w-[25px] me-2'/></a>
+                        <a href="tel:+0814047291" target='blank'><img src={phone} alt="" className='w-[25px] me-2'/></a>
                         +66 81404 7291
                     </div>
 

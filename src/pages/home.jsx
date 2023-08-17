@@ -5,6 +5,7 @@ import goldplus from '../assets/goldplus.png'
 import rerunews from '../assets/rerunews.png'
 import github from '../assets/github.png'
 import web from '../assets/web.png'
+import figma from '../assets/figma.png'
 import flotilla from '../assets/flotilla.png'
 import thavorn from '../assets/thavorn.png'
 import AOS from 'aos';
@@ -264,8 +265,7 @@ function Home() {
 
                                             </div>
                                             <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
-                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                                <a href="https://github.com/PatsakornW/gold_plus" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -285,8 +285,8 @@ function Home() {
 
                                             </div>
                                             <div className='flex ms-2   gap-x-1'>
-                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                                <a href="https://www.figma.com/proto/yQIjDUVgrD5jNiyYeeTuyC/Flotilla?node-id=1-2" target='blank'> <img src={figma} alt="github" className='w-6 h-6' /></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -305,8 +305,8 @@ function Home() {
 
                                             </div>
                                             <div className='flex ms-2 gap-x-1'>
-                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                                <a href="https://github.com/PatsakornW/tong_thavorn" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                                <a href="https://tong-thavorn-jewelry.vercel.app/index.html" target='blank'> <img src={web} alt="web" className='w-6 h-6' /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -337,8 +337,7 @@ function Home() {
 
                                             </div>
                                             <div className='flex ms-2 gap-x-1'>
-                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                                <a href="https://github.com/PatsakornW/reru_news" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
                                             </div>
                                         </div>
                                     </div>

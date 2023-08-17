@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/logo.png'
 
 function Navbar() {
+    const scrollToSection = (sectionName) => {
+        const section = document.getElementById(sectionName);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+       
+    };
+
     return (
         <div className="drawer ">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -22,9 +31,9 @@ function Navbar() {
 
                     <div className='flex-1  justify-end hidden md:block mx-20'>
                         <div className="flex  justify-end items-center">
-                            <Link to={'/'}><div className='btn btn-ghost'>  Home</div></Link>
-                            <Link to={'/project'}><div className='btn btn-ghost'>  Project</div></Link>
-                            <Link to={'/contact'}><div className='btn btn-ghost'>  Contact</div></Link>
+                            <div className='btn btn-ghost' onClick={() => scrollToSection('about-section')}> About</div>
+                            <div className='btn btn-ghost' onClick={() => scrollToSection('project-section')}>  Project</div>
+                            <div className='btn btn-ghost'  onClick={() => scrollToSection('experience-section')}>  Experience</div>
                         </div>
                     </div>
                     <div className="flex-grow md:flex-none justify-end ">

@@ -37,7 +37,7 @@ function Home() {
                     <img src={me} className='w-1/2 md:w-2/6' alt="me" />
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center'>
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center' id='about-section'>
                     <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold me-5 '>Skill</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
@@ -174,9 +174,9 @@ function Home() {
 
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-28  justify-center'>
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-20  justify-center'  id="project-section">
                     <div className='flex items-center m-5'>
-                        <div className='text-2xl lg:text-4xl font-bold me-5 '>Project</div>
+                        <div className='text-2xl lg:text-4xl font-bold me-5 ' >Project</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
                     </div>
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5  gap-4">
@@ -233,7 +233,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center'>
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center' id='experience-section'>
                     <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold me-5 '>Experience</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>

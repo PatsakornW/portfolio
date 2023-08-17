@@ -25,11 +25,11 @@ function Footer() {
                         PatsakornW
                     </div>
                     <div className="flex items-center">
-                        <a  href="mailto:patsakorn.wtnsb@gmail.com" target='blank'><img src={email} alt="" className='w-[25px] me-2'/></a>
+                        <a  href="mailto:patsakorn.wtnsb@gmail.com"><img src={email} alt="" className='w-[25px] me-2'/></a>
                         patsakorn.wtnsb@gmail.com
                     </div>
                     <div className="flex items-center">
-                        <a href="tel:+0814047291" target='blank'><img src={phone} alt="" className='w-[25px] me-2'/></a>
+                        <a href="tel:+0814047291" ><img src={phone} alt="" className='w-[25px] me-2'/></a>
                         +66 81404 7291
                     </div>
 

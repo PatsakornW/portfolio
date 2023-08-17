@@ -3,20 +3,19 @@ import './App.css'
 import Navbar from './components/navbar'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Home from './pages/home'
-import Project from './pages/project'
-import Contact from './pages/contact'
+import Footer from './components/footer'
+
 
 function App() {
 
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   )

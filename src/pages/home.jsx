@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import me from '../assets/me.svg'
 import recipes from '../assets/recipes.jpeg'
 import goldplus from '../assets/goldplus.png'
@@ -7,7 +7,8 @@ import github from '../assets/github.png'
 import web from '../assets/web.png'
 import flotilla from '../assets/flotilla.png'
 import thavorn from '../assets/thavorn.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../App.css'
 
 
@@ -16,28 +17,30 @@ import '../App.css'
 
 
 function Home() {
+    useEffect(() => {
+        AOS.init({duration:2000});
+      }, []);
 
 
     return (
         <div className='flex flex-wrap'>
             <div className=' grid grid-cols-2 mt-20'>
-                <div className='col-span-2 lg:col-span-1  flex flex-col justify-center items-center  xl:items-end text-3xl xl:text-5xl  mx-10 '>
+                
+                <div className='col-span-2 lg:col-span-1  flex flex-col justify-center items-center  xl:items-end text-3xl xl:text-5xl  mx-10 ' data-aos="fade-right"  >
                     <div className='text-center xl:text-start'>
                         <p className='tracking-tight'>Hello there</p>
                         <p className='tracking-tight'>I'm Patsakorn</p>
-                        <p className='xl:text-6xl text-5xl font-black ' >FrontEnd Developer </p>
+                        <p className='xl:text-6xl text-5xl font-bold ' >FrontEnd Developer </p>
                     </div>
 
 
                 </div>
 
-                <div className='col-span-2 lg:col-span-1 flex justify-center my-10 md:my-0'>
+                <div className='col-span-2 lg:col-span-1 flex justify-center my-10 md:my-0' data-aos="fade-left" >
                     <img src={me} className='w-1/2 md:w-5/12' alt="me" />
-
-
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center' id='about-section'>
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center' id='about-section' data-aos="fade-down" >
                     <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold me-5 '>About</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
@@ -175,7 +178,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-20  justify-center' id="project-section">
+                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-20  justify-center' id="project-section" data-aos="fade-down" >
                     <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold me-5 ' >Project</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
@@ -234,7 +237,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center' id='experience-section'>
+                <div className='flex col-span-2 flex-col mb-20 w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center' id='experience-section' data-aos="fade-down" >
                     <div className='flex items-center m-5'>
                         <div className='text-2xl lg:text-4xl font-bold me-5 '>Experience</div>
                         <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>

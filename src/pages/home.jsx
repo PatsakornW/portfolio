@@ -280,7 +280,7 @@ function Home() {
                                                 </p>
 
                                             </div>
-                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                            <div className='flex ms-2   gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
                                                 <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
                                             </div>
@@ -300,7 +300,7 @@ function Home() {
                                                 </p>
 
                                             </div>
-                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                            <div className='flex ms-2 gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
                                                 <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
                                             </div>
@@ -332,7 +332,7 @@ function Home() {
                                                 </p>
                                                 
                                             </div>
-                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                            <div className='flex ms-2 gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
                                                 <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
                                             </div>

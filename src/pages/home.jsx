@@ -39,8 +39,8 @@ function Home() {
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-10 h-min xl:h-screen justify-center'>
                     <div className='flex items-center m-5'>
-                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Skill</div>
-                        <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
+                        <div className='text-2xl lg:text-4xl font-bold me-5 '>Skill</div>
+                        <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
                     </div>
                     <div className="flex flex-wrap md:flex-nowrap  mx-auto w-full justify-center items-center ">
                         <div className="card card-compact w-56 ">
@@ -176,27 +176,27 @@ function Home() {
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:-mt-28  justify-center'>
                     <div className='flex items-center m-5'>
-                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Project</div>
-                        <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
+                        <div className='text-2xl lg:text-4xl font-bold me-5 '>Project</div>
+                        <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
                     </div>
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-5  gap-4">
                         <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col  md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 object-cover rounded" src={recipes} alt="recipes" />
                             <div class=" mt-4 mb-3 flex justify-between items-center ">
                                 <div className='text-2xl font-bold mb-1'>Recipes</div>
-                                <div className=' w-1/3 h-[2px] opacity-50 bg-black'></div>
+                                <div className=' w-1/3 h-[1px] bg-gray-200'></div>
                                 <div className='flex  gap-x-1'>
-                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
 
                                 </div>
                             </div>
 
 
                             <div className='flex gap-x-2'>
-                                <div className="badge badge-ghost">React</div>
-                                <div className="badge badge-ghost">Tailwind</div>
-                                <div className="badge badge-ghost">Api</div>
+                                <div className="badge bg-gray-200 rounded">React</div>
+                                <div className="badge bg-gray-200 rounded">Tailwind</div>
+                                <div className="badge bg-gray-200 rounded">Api</div>
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
@@ -207,18 +207,18 @@ function Home() {
 
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
-                            <div class=" mt-4 mb-3 flex justify-between items-center ">
+                            <div class=" mt-4 mb-3 flex justify-between items-center">
                                 <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus</div>
-                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
+                                <div className='mx-1 w-3/12 h-[1px] bg-gray-200'></div>
                                 <div className='flex  gap-x-1'>
-                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
+                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
 
                                 </div>
                             </div>
                             <div className='flex gap-x-2'>
-                                <div className="badge badge-ghost">Laravel</div>
-                                <div className="badge badge-ghost">Bootstrap</div>
+                                <div className="badge bg-gray-200 rounded">Laravel</div>
+                                <div className="badge bg-gray-200 rounded">Bootstrap</div>
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
@@ -235,8 +235,8 @@ function Home() {
 
                 <div className='flex col-span-2 flex-col  w-full xl:w-3/4   mx-auto mt-0 xl:mt-28  justify-center'>
                     <div className='flex items-center m-5'>
-                        <div className='text-2xl lg:text-4xl font-bold mx-5 '>Experience</div>
-                        <div className='h-[2px] bg-gray-300  w-full md:w-3/4 lg:w-full'></div>
+                        <div className='text-2xl lg:text-4xl font-bold me-5 '>Experience</div>
+                        <div className='h-[2px] bg-gray-200  w-full md:w-3/4 lg:w-full'></div>
                     </div>
                     <div className="flex flex-wrap   mx-auto w-full h-full justify-center items-center p-2 lg:p-5  gap-2">
                         <details className="collapse collapse-arrow">
@@ -247,29 +247,68 @@ function Home() {
                                     <p>December 2022 - March 2023</p>
                                 </div>
                             </summary>
-                            <div className="collapse-content border border-black rounded">
-                                <div className='my-2 leading-relaxed'>
-                                    <b>For Gold Plus :</b>  I have developed and designed the UI for a gold-saving platform that enables members to save around the clock. Members can deposit funds into the system, convert them into tokens for gold exchange, and are able to exchange their tokens for gold once their savings goal is achieved.
-                                    <br />
-                                    <div className="badge text-xs badge-primary mb-4">Use : HTML / CSS / Java Script / Laravel / Bootstrap</div>
-                                </div>
+                            <div className="collapse-content border border-black rounded mx-2">
+                                <div className="grid grid-cols-2 items-center gap-4 p-4">
+                                    <div className=' col-span-2 md:col-span-1'>
+                                        <b>Gold Plus :</b>  I have developed and designed the UI for a gold-saving platform that enables members to save around the clock. Members can deposit funds into the system, convert them into tokens for gold exchange, and are able to exchange their tokens for gold once their savings goal is achieved.
+                                        <br />
+                                        <div className='flex flex-wrap mt-2 items-center'>
+                                            <div className="rounded badge-xl sm:badge-primary  text-[10px] sm:text-xs  badge-primary">
+                                                <p className='p-1'>
+                                                    Use : HTML / CSS / Java Script / Laravel / Bootstrap
+                                                </p>
 
-                                <div className='my-2 leading-relaxed'>
-                                    <b>For Flotilla Technology : </b>I have designed the UX/UI for the landing page of both the website and mobile platform for FLOTILLA TECHNOLOGY CO., LTD. This company operates in the manufacturing industry, providing services related to large shipbuilding and floating construction.
-                                    <br />
-                                    <div className="badge text-xs badge-primary mb-4">Use : Figma</div>
-                                </div>
+                                            </div>
+                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className=' col-span-2 md:col-span-1 flex justify-center'>
+                                        <img src={goldplus} className="w-96 h-72 rounded" alt='goldplus' />
+                                    </div>
+                                    <div className="divider col-span-2"></div>
 
-                                <div className='my-2 leading-relaxed'>
-                                    <b>For Thavorn Jewelry : </b> I review and edit the web design for TONG THAVORN.
-                                    <br />
-                                    <div className="badge text-xs badge-primary mb-4">Use : HTML / CSS</div>
-                                </div>
+                                    <div className=' col-span-2 md:col-span-1'>
+                                        <b>Flotilla Technology : </b>I have designed the UX/UI for the landing page of both the website and mobile platform for FLOTILLA TECHNOLOGY CO., LTD. This company operates in the manufacturing industry, providing services related to large shipbuilding and floating construction.
+                                        <br />
+                                        <div className='flex flex-wrap mt-2 items-center'>
+                                            <div className="rounded badge-xl sm:badge-primary  text-[10px] sm:text-xs  badge-primary">
+                                                <p className='p-1'>
+                                                    Use : Figma
+                                                </p>
 
-                                <div className='flex flex-wrap justify-center gap-4 my-4'>
-                                    <img src={goldplus} className="w-64 h-64 " alt='goldplus' />
-                                    <img src={flotilla} className="w-64 h-64 " alt='flotilla' />
-                                    <img src={thavorn} className="w-64 h-64 " alt='thavorn' />
+                                            </div>
+                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className=' col-span-2 md:col-span-1 flex justify-center'>
+                                        <img src={flotilla} className="w-96 h-72 rounded" alt='flotilla' />
+                                    </div>
+                                    <div className="divider col-span-2"></div>
+                                    <div className=' col-span-2 md:col-span-1 '>
+                                        <b>Thavorn Jewelry : </b> I review and edit the web design for TONG THAVORN.
+                                        <br />
+                                        <div className='flex flex-wrap mt-2 items-center'>
+                                            <div className="rounded badge-xl sm:badge-primary  text-[10px] sm:text-xs  badge-primary">
+                                                <p className='p-1'>
+                                                    Use : HTML / CSS / Java Script
+                                                </p>
+
+                                            </div>
+                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className=' col-span-2 md:col-span-1 flex justify-center'>
+                                        <img src={thavorn} className="w-96 h-72 " alt='thavorn' />
+                                    </div>
                                 </div>
                             </div>
                         </details>
@@ -281,30 +320,30 @@ function Home() {
                                     <p>July 2022 - October 2022</p>
                                 </div>
                             </summary>
-                            <div className="collapse-content border border-black rounded">
-                                <div className='my-2 leading-relaxed'>
-                                    <div className="grid grid-cols-2 items-center">
-                                        <div className='flex flex-col justify-center '>
-                                            Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
-                                            <br />
-                                            <div className="badge text-xs badge-primary ">Use : Flutter / PHP</div>
+                            <div className="collapse-content border border-black rounded mx-2">
+                                <div className='grid grid-cols-2 items-center gap-4 p-4'>
+                                    <div className=' col-span-2 md:col-span-1'>
+                                        Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
+                                        <br />
+                                        <div className='flex flex-wrap mt-2 items-center'>
+                                            <div className="rounded badge-xl sm:badge-primary  text-[10px] sm:text-xs  badge-primary">
+                                                <p className='p-1'>
+                                                    Use : Flutter / PHP
+                                                </p>
+                                                
+                                            </div>
+                                            <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
+                                                <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                                <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                            </div>
                                         </div>
-                                        <div className='flex justify-center'>
-                                            <img src={rerunews} onClick={() => window.my_modal_2.showModal()} className=" w-64 h-72 " alt="flutter" />
-                                            <dialog id="my_modal_2" className="modal">
-                                                <form method="dialog" className="modal-box w-full">
-                                                    <img src={rerunews}  alt="flutter" />
-                                                </form>
-                                                <form method="dialog" className="modal-backdrop">
-                                                    <button>close</button>
-                                                </form>
-                                            </dialog>
-
-
-                                        </div>
+                                    </div>
+                                    <div className=' col-span-2 md:col-span-1 flex justify-center'>
+                                        <img src={rerunews} className="w-80 h-96 rounded" alt='rerunews' />
                                     </div>
 
                                 </div>
+
                             </div>
                         </details>
                         {/* <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">

@@ -8,6 +8,8 @@ import web from '../assets/web.png'
 import figma from '../assets/figma.png'
 import flotilla from '../assets/flotilla.png'
 import thavorn from '../assets/thavorn.png'
+import fakestore from '../assets/fakestore.jpeg'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../App.css'
@@ -210,7 +212,7 @@ function Home() {
                         </div>
 
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
-                            <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
+                            <img class=" w-full h-48 rounded object-cover" src={fakestore} alt="goldplus" />
                             <div class=" mt-4 mb-3 flex justify-between items-center">
                                 <div className='text-2xl font-bold tracking-tighter mb-1'>FakeStore</div>
                                 <div className='mx-1 w-3/12 h-[1px] bg-gray-200'></div>

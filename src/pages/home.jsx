@@ -192,7 +192,7 @@ function Home() {
                                 <div className=' w-1/3 h-[1px] bg-gray-200'></div>
                                 <div className='flex  gap-x-1'>
                                     <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                    <a href="https://recipe-roan.vercel.app/" target='blank'> <img src={web} alt="web" className='w-6 h-6' /></a>
 
                                 </div>
                             </div>
@@ -201,7 +201,6 @@ function Home() {
                             <div className='flex gap-x-2'>
                                 <div className="badge bg-gray-200 rounded">React</div>
                                 <div className="badge bg-gray-200 rounded">Tailwind</div>
-                                <div className="badge bg-gray-200 rounded">Api</div>
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
@@ -213,21 +212,21 @@ function Home() {
                         <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
                             <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
                             <div class=" mt-4 mb-3 flex justify-between items-center">
-                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus</div>
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>FakeStore</div>
                                 <div className='mx-1 w-3/12 h-[1px] bg-gray-200'></div>
                                 <div className='flex  gap-x-1'>
-                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" className='w-6 h-6' /></a>
+                                    <a href="https://github.com/PatsakornW/FakeStore" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                    <a href="https://fake-store-psk.vercel.app/" target='blank'> <img src={web} alt="web" className='w-6 h-6' /></a>
 
                                 </div>
                             </div>
                             <div className='flex gap-x-2'>
-                                <div className="badge bg-gray-200 rounded">Laravel</div>
-                                <div className="badge bg-gray-200 rounded">Bootstrap</div>
+                                <div className="badge bg-gray-200 rounded">React</div>
+                                <div className="badge bg-gray-200 rounded">Tailwind</div>
                             </div>
                             <div className='text-sm my-5'>
                                 <p>
-                                    Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
+                                This website has been created using React and utilizes the free API provided by FakeStore. The purpose is to study and experiment with an e-commerce system. Users are able to add products to their cart, along with specifying the quantity of each item.
                                 </p>
                             </div>
                             {/* <div className='justify-center gap-2 flex mt-auto my-5'>

@@ -9,6 +9,8 @@ import figma from '../assets/figma.png'
 import flotilla from '../assets/flotilla.png'
 import thavorn from '../assets/thavorn.png'
 import fakestore from '../assets/fakestore.jpeg'
+import movie from '../assets/movie.jpeg'
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -235,6 +237,28 @@ function Home() {
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Website </button>
                                 <button className='btn text-xs btn-sm btn-primary w-1/2 rounded-md'> View on Github </button>
                             </div> */}
+                        </div>
+
+                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
+                            <img class=" w-full h-48 rounded object-cover" src={movie} alt="movie" />
+                            <div class=" mt-4 mb-3 flex justify-between items-center">
+                                <div className='text-2xl font-bold tracking-tighter mb-1'>Movie</div>
+                                <div className='mx-1 w-3/12 h-[1px] bg-gray-200'></div>
+                                <div className='flex  gap-x-1'>
+                                    <a href="https://github.com/PatsakornW/movie" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
+                                    <a href="https://movie-beryl-ten.vercel.app/" target='blank'> <img src={web} alt="web" className='w-6 h-6' /></a>
+
+                                </div>
+                            </div>
+                            <div className='flex gap-x-2'>
+                                <div className="badge bg-gray-200 rounded">React</div>
+                                <div className="badge bg-gray-200 rounded">Tailwind</div>
+                            </div>
+                            <div className='text-sm my-5'>
+                                <p>
+                                This website has been developed using React and is related to viewing details of movies and TV series. You can watch current trending movies and popular ones.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -13,6 +13,7 @@ import movie from '../assets/movie.jpeg'
 import weather from '../assets/weather.jpeg'
 
 
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../App.css'
@@ -53,6 +54,7 @@ function Home() {
                     </div>
                     <div className="grid grid-cols-1  gap-2">
                         <div className='mx-5'>Hello, my name is Patsakorn Wongtanasombat, or you can call me Boss. I am a recent graduate from the Computer Science Faculty at Roi Et Rajabhat University. I have a strong interest in working as a FrontEnd developer. I enjoy designing and crafting visually appealing and modern websites. I am eager to learn the technologies that will help me enhance the aesthetics and contemporary feel of websites.</div>
+
                         <div className='flex flex-wrap md:flex-nowrap  mx-auto  justify-center items-center '>
                             <div className="card card-compact w-56 ">
                                 <div className="card-body items-center text-center gap-4">
@@ -309,7 +311,6 @@ function Home() {
                                                 <p className='p-1'>
                                                     Use : HTML / CSS / Java Script / Laravel / Bootstrap
                                                 </p>
-
                                             </div>
                                             <div className='flex ms-0 lg:ms-2 mt-2 lg:mt-0 gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/gold_plus" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
@@ -320,7 +321,6 @@ function Home() {
                                         <img src={goldplus} className="w-96 h-72 rounded" alt='goldplus' />
                                     </div>
                                     <div className="divider col-span-2"></div>
-
                                     <div className=' col-span-2 md:col-span-1'>
                                         <b>Flotilla Technology : </b>I have designed the UX/UI for the landing page of both the website and mobile platform for FLOTILLA TECHNOLOGY CO., LTD. This company operates in the manufacturing industry, providing services related to large shipbuilding and floating construction.
                                         <br />
@@ -329,11 +329,9 @@ function Home() {
                                                 <p className='p-1'>
                                                     Use : Figma
                                                 </p>
-
                                             </div>
                                             <div className='flex ms-2   gap-x-1'>
                                                 <a href="https://www.figma.com/proto/yQIjDUVgrD5jNiyYeeTuyC/Flotilla?node-id=1-2" target='blank'> <img src={figma} alt="github" className='w-6 h-6' /></a>
-
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +347,6 @@ function Home() {
                                                 <p className='p-1'>
                                                     Use : HTML / CSS / Java Script
                                                 </p>
-
                                             </div>
                                             <div className='flex ms-2 gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/tong_thavorn" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
@@ -381,7 +378,6 @@ function Home() {
                                                 <p className='p-1'>
                                                     Use : Flutter / PHP
                                                 </p>
-
                                             </div>
                                             <div className='flex ms-2 gap-x-1'>
                                                 <a href="https://github.com/PatsakornW/reru_news" target='blank'> <img src={github} alt="github" className='w-6 h-6' /></a>
@@ -391,55 +387,9 @@ function Home() {
                                     <div className=' col-span-2 md:col-span-1 flex justify-center'>
                                         <img src={rerunews} className="w-80 h-96 rounded" alt='rerunews' />
                                     </div>
-
                                 </div>
-
                             </div>
                         </details>
-                        {/* <div class=" px-6 pt-6 border border-black  rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
-                            <img class=" w-full h-48 rounded object-cover" src={rerunews} alt="rerunews" />
-                            <div class=" mt-4 mb-3 flex justify-between items-center ">
-                                <div className='text-2xl font-bold tracking-tighter mb-1'>RERU NEWS</div>
-                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
-                                <div className='flex  gap-x-1'>
-                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
-
-                                </div>
-                            </div>
-                            <div className='flex gap-x-2'>
-                                <div className="badge badge-ghost">Flutter</div>
-                                <div className="badge badge-ghost">Php</div>
-                            </div>
-                            <div className='text-sm my-5'>
-                                <p>
-                                    Develop an application for internal university news communication. Users can add new articles, view all news, like and comment, as well as maintain contact information for various university departments, ensuring convenient and efficient communication.
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <div class=" px-6 pt-6 border border-black rounded-md flex flex-col md:h-[30rem]	 w-full md:w-80">
-                            <img class=" w-full h-48 rounded object-cover" src={goldplus} alt="goldplus" />
-                            <div class=" mt-4 mb-3 flex justify-between items-center ">
-                                <div className='text-2xl font-bold tracking-tighter mb-1'>Gold Plus</div>
-                                <div className='mx-1 w-3/12 h-[2px] opacity-50 bg-black'></div>
-                                <div className='flex  gap-x-1'>
-                                    <a href="https://github.com/PatsakornW/recipe" target='blank'> <img src={github} alt="github" /></a>
-                                    <a href="https://recipe-roan.vercel.app/"> <img src={web} alt="web" /></a>
-
-                                </div>
-                            </div>
-                            <div className='flex gap-x-2'>
-                                <div className="badge badge-ghost">Laravel</div>
-                                <div className="badge badge-ghost">Bootstrap</div>
-                            </div>
-                            <div className='text-sm my-5'>
-                                <p>
-                                    Our gold-saving platform allows members to save 24/7. Members can deposit, convert to tokens for gold exchange, and redeem gold when savings goal is reached.
-                                </p>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
